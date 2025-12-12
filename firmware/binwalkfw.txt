@@ -1,0 +1,67 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DECIMAL                            HEXADECIMAL                        DESCRIPTION
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+153600                             0x25800                            LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 213661 bytes, uncompressed size: 558448 bytes
+528384                             0x81000                            LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, compressed size: 512065 bytes, uncompressed size: 1302488 bytes
+1044480                            0xFF000                            LZMA compressed data, properties: 0x5D, dictionary size: 16777216 bytes, compressed size: 6696374 bytes, uncompressed size: 42320448 bytes
+8511520                            0x81E020                           JPEG image, total size: 256703 bytes
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[+] Extraction of lzma data at offset 0x25800 completed successfully
+[+] Extraction of lzma data at offset 0x81000 completed successfully
+[+] Extraction of lzma data at offset 0xFF000 completed successfully
+[+] Extraction of jpeg data at offset 0x81E020 completed successfully
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                               /home/ilyes/Downloads/extractions/20170213_ECHOLINK-S1+NEW_1506A_1100_M10_N0_UI0_V.bin.extracted/81000/decompressed.bin
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DECIMAL                            HEXADECIMAL                        DESCRIPTION
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+512                                0x200                              eCos kernel exception handler, MIPS little endian
+896                                0x380                              eCos kernel exception handler, MIPS little endian
+155544                             0x25F98                            JPEG image, total size: 119638 bytes
+328872                             0x504A8                            CRC32 polynomial table, little endian
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[+] Extraction of jpeg data at offset 0x25F98 completed successfully
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                               /home/ilyes/Downloads/extractions/20170213_ECHOLINK-S1+NEW_1506A_1100_M10_N0_UI0_V.bin.extracted/FF000/decompressed.bin
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DECIMAL                            HEXADECIMAL                        DESCRIPTION
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+102852                             0x191C4                            Copyright text: "Copyright String Length: %d, "
+102884                             0x191E4                            Copyright text: "Copyright: %s, "
+991208                             0xF1FE8                            CRC32 polynomial table, big endian
+1340400                            0x1473F0                           CRC32 polynomial table, little endian
+1349608                            0x1497E8                           AES S-Box
+1350912                            0x149D00                           AES S-Box
+1351764                            0x14A054                           SHA256 hash constants, little endian
+1569220                            0x17F1C4                           CRC32 polynomial table, little endian
+1572200                            0x17FD68                           AES S-Box
+1573496                            0x180278                           AES S-Box
+1574340                            0x1805C4                           SHA256 hash constants, little endian
+1909180                            0x1D21BC                           AES S-Box
+2014184                            0x1EBBE8                           SHA256 hash constants, little endian
+2037556                            0x1F1734                           AES S-Box
+2038836                            0x1F1C34                           AES S-Box
+2060480                            0x1F70C0                           AES S-Box
+2192689                            0x217531                           AES S-Box
+2192945                            0x217631                           AES S-Box
+2201000                            0x2195A8                           Copyright text: "Copyright (c) 2003 NagraCard S.A."
+2282480                            0x22D3F0                           AES S-Box
+2282736                            0x22D4F0                           AES S-Box
+2283600                            0x22D850                           Copyright text: "Copyright:buffer;"
+8189285                            0x7CF565                           JBOOT STAG header, factory image, header size: 16 bytes, kernel data size: 1064960 bytes
+9204331                            0x8C726B                           Copyright text: "copyright_data() fail "
+9204363                            0x8C728B                           Copyright text: "Copyright Data : "
+9262392                            0x8D5538                           Copyright text: "Copyright (C) 1991-2016 The libjpeg-turbo Project and many others"
+10881024                           0xA60800                           AES S-Box
+10881316                           0xA60924                           SHA256 hash constants, little endian
+21938616                           0x14EC1B8                          JPEG image, total size: 7452 bytes
+21962239                           0x14F1DFF                          Copyright text: "Copyright (c) 1998 Hewlett-Packard Company"
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[+] Extraction of jpeg data at offset 0x14EC1B8 completed successfully
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Analyzed 4 files for 85 file signatures (187 magic patterns) in 1.8 seconds
